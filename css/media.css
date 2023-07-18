@@ -1,0 +1,205 @@
+@media screen and (min-width:400px) and (max-width:600px){
+    .container {
+        width: 370px;
+    }
+    .header .nav-logo {
+        width: 90%;
+    }
+    .header .nav-bar .nav-links {
+        display: none;
+    }
+    .header .nav-bar .nav-menu {
+        display: block;
+    }
+    .header .nav-bar .nav-menu .icon {
+        color: #fff;
+    }
+    .header .nav-bar .nav-menu .icon:hover .links {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .header .nav-bar .nav-menu .links {
+        background-color: #fff;
+        padding: 0 10px;
+        position: absolute;
+        top: 150%;
+        right: 10%;
+        left: 10%;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .header .nav-bar .nav-menu .links li {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+    .header .nav-bar .nav-menu .links li a {
+        color: #333;
+    }
+    .header .btns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .header .btns .btn1 {
+        display: inline-block;
+        width: calc((100% - 20px)/2);
+        margin: 0;
+        padding: 10px 24px;
+        font-size: 15px;
+    }
+    .header .btns .btn2 {
+        display: inline-block;
+        width: calc((100% - 20px)/2);
+        padding: 10px 24px;
+    }
+    .anim {
+        top: 85%;
+    }
+    .who-are .container > div {
+        width: 100%;
+    }
+    .our-location .container > div {
+        width: 100%;
+    }
+    .our-location .container {
+        padding: 0;
+    }
+    .header .home-text span {
+        font-size: 18px;
+    }
+    .header .home-text h1 {
+        font-size: 58px;
+    }
+    .header .home-text p {
+        font-size: 20px;
+    }
+    .header .home-text .btns {
+        flex-direction: column;
+    }
+    .header .home-text .btns > a {
+        width: 70%;
+    }
+    .baking .container .card {
+        width: 100%;
+    }
+    .contact .container > div {
+        width: 100%;
+    }
+    .footer-top .container > div {
+        width: 100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    .container {
+        width: 600px;
+    }
+    .header .nav-bar .nav-links {
+        display: none;
+    }
+    .header .nav-bar .nav-menu {
+        display: block;
+    }
+    .header .nav-bar .nav-menu .icon {
+        color: #fff;
+    }
+    .header .nav-bar .nav-menu .icon:hover .links {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .header .nav-bar .nav-menu .links {
+        background-color: #fff;
+        padding: 0 10px;
+        position: absolute;
+        top: 150%;
+        right: 10%;
+        left: 10%;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .header .nav-bar .nav-menu .links li {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+    .header .nav-bar .nav-menu .links li a {
+        color: #333;
+    }
+    .who-are .container > div {
+        width: 100%;
+    }
+    .our-location .container > div {
+        width: 100%;
+    }
+    .our-location .container {
+        padding: 0;
+    }
+    .baking .container .card {
+        width: 100%;
+    }
+    .contact .container > div {
+        width: 100%;
+    }
+    .footer-top .container > div {
+        width: calc((100% - 80px)/2);
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .container {
+        width: 750px;
+    }
+    .header .nav-bar .nav-links {
+        display: none;
+    }
+    .header .nav-bar .nav-menu {
+        display: block;
+        width: 10%;
+    }
+    .header .nav-bar .nav-menu .icon {
+        color: #fff;
+    }
+    .header .nav-bar .nav-menu .icon:hover .links {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .header .nav-bar .nav-menu .links {
+        background-color: #fff;
+        padding: 0 10px;
+        position: absolute;
+        top: 150%;
+        right: 10%;
+        left: 10%;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .header .nav-bar .nav-menu .links li {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+    .header .nav-bar .nav-menu .links li a {
+        color: #333;
+    }
+    .our-location .container {
+        padding: 0;
+    }
+    .footer-top .container > div {
+        width: calc((100% - 80px)/3);
+    }
+    
+}
+@media  screen and (min-width:993px) and (max-width:1200px) {
+    .container {
+        width: 970px;
+    }
+}
+@media screen and (min-width:1201px) {
+    .container {
+        width: 1140px;
+    }
+}
